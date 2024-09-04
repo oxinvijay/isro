@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: serif;
+}
+body{
+    background-color: lightcyan;
+}
+.navigation{
+    width: auto;
+    height: 50px;
+    display: flex;
+
+    background-color: #174973;
+    color: #fff;
+}
+.ol{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 15px;
+   font-family:  'Arial Narrow', Arial, ;
+   margin-left: 80px;
+}
+.ol :hover{
+  
+    color: #0830f7;
+    cursor: pointer;
+}
+.li1{
+    margin-right: 10px;
+   
+    font-size: 14px;
+}
+.li2{
+    margin-left: 55px;
+    margin-right: 10px;
+    font-size: 14px;
+
+}
+.icon{
+    margin-left: 450px;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+}
+.icon :hover{
+   color: blueviolet;
+}
+span{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+    clear: both;
+}
+.nav2{
+background-color:   rgb(2, 12, 68);
+}
+.img1{
+    display: flex;
+    width: 600px;
+    height: 120px;
+    margin-left: 150px;
+    margin-right: 300px;
+    justify-content: baseline;
+    cursor: pointer;
+
+}
+.text{
+   
+    font-size: 13px;
+    width:10000px;
+    text-align: center;
+    margin-top: 25px;
+    color: #fff;
+    cursor: default;
+}
+.h2{
+    
+    width: 800px;
+    font-size: 19px;
+}
+.h3{
+    font-size: 25px;
+}
+.logo1{
+    width: 140px;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: aliceblue;
+}
+.logo2{
+
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+.nav3{
+    width: auto;
+    height: 50px;
+    background-color:#004079;
+    display: flex;
+    padding-left: 130px;
+}
+.dorpdown{
+margin: 10px;
+}
+.dorpdown a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+.dorpdown a i{
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 15px;
+}
+.dorpdown a:hover{
+    color: limegreen;
+}
+.dorpdown ul{
+    white-space-collapse: collapse;
+    display: block;
+    background-color: whitesmoke;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.dorpdown  ul li{
+    text-align: left;
+    position: relative;
+    padding: 5px;
+    list-style: none;
+    cursor: pointer;
+    color: black;
+    display: none;
+
+}
+.dorpdown:hover ul{
+    display: block;
+    position: relative;
+}
+.dorpdown:hover ul li{
+    display: block;
+    position: relative;
+}
+div.search{
+    margin: 10px 20px 2% 20%;
+}
+div.search input{
+    border-radius: 6px;
+    margin-right: 5px;
+    border: none;
+    padding: 1px;
+}
+
+div.video video{
+    width: 1520px;
+    height: auto;
+}
